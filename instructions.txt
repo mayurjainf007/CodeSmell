@@ -3,6 +3,15 @@
 
 This project detects code smells in Python scripts, generates reports, and visualizes the results using various charts.
 
+Download Dataset/Model (if you don't want to train the dataset)
+
+Download Dataset : https://zenodo.org/records/13918465
+Download and store the files in data directory
+
+Download Model : https://drive.google.com/drive/folders/18nRXGy-D_HEmmDs2ppi5Vmp43Ou4SXPZ?usp=drive_link
+Download and store the files in model directory
+
+
 ## Files Overview
 
 1. **detect_code_smells.py**:
