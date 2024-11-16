@@ -1,0 +1,63 @@
+
+# Project Instructions
+
+This project detects code smells in Python scripts, generates reports, and visualizes the results using various charts.
+
+## Files Overview
+
+1. **detect_code_smells.py**:
+   - Detects code smells in machine learning code snippets.
+   - Uses predefined rules and a trained machine learning model.
+
+2. **generate_report.py**:
+   - Generates a detailed report based on the results from `detect_code_smells.py`.
+   - Outputs a CSV file summarizing detected code smells.
+
+3. **train_model.py**:
+   - Trains the machine learning model used for detecting code smells.
+   - Saves the trained model and vectorizer for later use.
+
+4. **visualization_code_smells.py**:
+   - Creates various visualizations based on the detected code smells.
+   - Includes bar charts, pie charts, and stacked bar charts.
+
+## Instructions to Run the Project
+
+### Step 1: Install Required Libraries
+Make sure you have Python 3.8 or later installed. Use the following command to install the required libraries:
+```
+pip install -r requirements.txt
+```
+
+### Step 2: Train the Model
+Before detecting code smells, ensure the model is trained:
+```
+python train_model.py
+```
+
+### Step 3: Detect Code Smells
+Run the `detect_code_smells.py` script on your dataset:
+```
+python detect_code_smells.py
+```
+
+### Step 4: Generate a Report
+Generate a detailed report using the following command:
+```
+python generate_report.py
+```
+
+### Step 5: Visualize Code Smells
+Visualize the results using the `visualization_code_smells.py` script:
+```
+python visualization_code_smells.py
+```
+
+## Output Files
+- **`code_smell_results.csv`**: Contains the detected code smells.
+- **Visualizations**: Stored in the `images/` folder.
+
+## Notes
+- Ensure the dataset is in the expected format with a `code_block` column.
+- Update paths and configurations in scripts if necessary.
+

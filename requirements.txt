@@ -1,0 +1,5 @@
+ipython
+joblib
+pandas
+matplotlib
+scikit-learn
